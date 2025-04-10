@@ -38,28 +38,11 @@ A mock **E-commerce SQL Database** was created using SQLite. It contains:
 
 ---
 
-## How to Use
-
-1. Clone the repository.
-2. Import or recreate the database using any SQL tool (MySQL, PostgreSQL, or SQLite).
-3. Execute the queries from the `.sql` file.
-4. Refer to the output screenshot for visualization.
-
----
-
-## Interview Questions Answered
-
-1. **Difference between WHERE and HAVING**: `WHERE` filters rows before grouping, `HAVING` filters groups after aggregation.
-2. **Types of joins**: INNER, LEFT, RIGHT, FULL OUTER (not all are supported in SQLite).
-3. **Average revenue per user**: `SELECT AVG(total_spend) FROM (...) GROUP BY user_id`
+SELECT AVG(total_spend) FROM (...) GROUP BY user_id`
 4. **Subqueries**: A query nested inside another query.
 5. **Optimizing queries**: Use indexes, avoid `SELECT *`, and minimize joins on large tables.
 6. **Views in SQL**: Virtual tables based on SQL queries.
 7. **Handling NULLs**: Use `IS NULL`, `COALESCE()`, or `IFNULL()` functions.
 
 ---
-
-## Submission
-
-Submit the GitHub repository link as per the internship instructions.
 
